@@ -1,0 +1,14 @@
+.centerline {
+  padding-left: 500px;
+  padding-top: 20px;
+  color: rgb(16, 145, 16);
+}
+#txt_notes {
+  resize: none;
+}
+body {
+  background-color: rgba(241, 241, 241, 0.945);
+}
+input {
+  outline: none;
+}

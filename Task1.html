@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link type="image/x-icon" rel="icon" href="../first1/icons/favicon.ico"/>
+    <link href="./Styles/Task1.css" rel="stylesheet" />
+  
+    <title>Task 1 </title>
+   
+  </head>
+  
+  <body>
+    <div style="background: rgba(228, 228, 228, 0.897); padding: 10px 10px;">
+      <center>
+            <h1 style="color: gray;"> Create Account </h1>
+      </center>
+    </div>
+      <br />
+      <div class="centerline">
+      <table>
+
+          <tr>
+            <td  style="padding-right: 5px;" >
+
+               
+                    <label for="FirstName"> First  Name * </label>
+                    <br />
+                    <input id="FirstName" type="text" placeholder="enter your first name"  autofocus  required autocomplete="off" 
+                    style="padding-right: 100px; border-radius: 3px;border-color:rgb(235, 229, 229);" />
+               
+
+
+               
+               
+            <td id="SecondName">
+                
+                    <label for="LastName">Last name</label>
+                    <br />
+                    <input id="LastName" type="text" placeholder="enter your last name"  autofocus   required autocomplete="off"
+                    style="padding-right: 100px; border-radius: 3px;border-color:rgb(235, 229, 229);" />
+
+                
+            </td>
+          </tr>
+                 
+      </table> 
+    </div>
+      
+      <br/>
+      <div class="centerline">
+      <label for="Email">    Email*   </label>
+      <br />
+      <input id="Email" type="text" placeholder="enter your email"  autofocus  required autocomplete="off"
+      style="padding-right: 385px; border-radius: 3px;border-color:rgb(235, 229, 229);"  />
+    </div>
+     
+      
+
+      
+      <br />
+      <div class="centerline">
+      <table>
+
+        <tr>
+          <td >
+             
+
+                  <label for="Password">   Password * </label>
+                  <br />
+                  <input id="Password" type="password" placeholder="enter your password"  autofocus   required autocomplete="off" 
+                  style="padding-right: 100px; border-radius: 3px;border-color:rgb(235, 229, 229);" />
+
+              
+             
+          <td >
+              
+
+                  <label for="confirmPassword"> Confirm Password * </label>
+                  <br />
+                  <input id="confirmPassword" type="password" placeholder="enter your password again"  autofocus   required autocomplete="off"
+                  style="padding-right: 100px; border-radius: 3px;border-color:rgb(235, 229, 229);" />
+
+              
+          </td>
+        </tr>
+               
+       </table> 
+    </div>
+       <br/>
+
+
+       <div class="centerline">
+       <table>
+           <tr>
+               <td   style="padding-right: 145px;" >
+               
+                   <form>
+                    <p> Gender:</p>
+                       <input id="rad-1" type="radio"  value=" Male " name="gender" required
+                       style="border-color:rgb(235, 229, 229);"/>   
+                       <label for="rad-1"> Male </label>
+                       <input id="rad-2" type="radio"  value=" Famle " name="gender" required
+                       style="border-color:rgb(235, 229, 229);"/>
+                       <label for="rad-2"> Famle </label>
+                  
+                   </form>
+                   <td >
+                       <form>
+
+                           <p> Hobbies </p>
+                           <input id="hobbies_1" type="checkbox" value="Music" name="Hobby-1"
+                           style="border-radius: 3px;border-color:rgb(235, 229, 229);"/>
+                           <label for="hobbies_2">Sports</label>
+                           <input id="hobbies_2" type="checkbox" value="Sports" name="Hobby-2"
+                           style="border-radius: 3px;border-color:rgb(235, 229, 229);"/>
+                           <label for="hobbies_1">Music</label>
+                           <input id="hobbies_3" type="checkbox" value="Travel" name="Hobby-3"
+                           style="border-radius: 3px;border-color:rgb(235, 229, 229);"/>   
+                           <label for="hobbies_3">Travel</label>
+                           <input id="hobbies_3" type="checkbox" value="Movies" name="Hobby-4"
+                           style="border-radius: 3px;border-color:rgb(235, 229, 229);"/>
+                           <label for="hobbies_3">Movies</label>
+           
+                       </form>
+
+                   </td>
+
+           </tr>
+
+
+       </table>
+       </div>
+
+      <div class="centerline">  
+       <table>
+           <tr>
+               <td style="padding-right: 20px;">
+                   <form>
+                    <label for="source"> Source of Income </label>
+                    <br/>
+                    <select id="source"  style="padding-right: 150px;border-radius: 3px;border-color:rgba(146, 142, 142, 0.945) ;">
+                    <option value="0">--- choose ---</option>
+                    <option value="1" >Employed</option>
+                    <option value="2" >Freelance</option>
+                  
+                   </form>
+
+               </td>
+               <td > 
+                   <form>
+
+                   <label for="income"> Income </label>
+                   <br/>
+                   <input id="income" type="range" 
+                   style="padding-right: 100px;border-radius: 3px;border-color:white ;"/>
+                   <button type="menu" style="background-color:rgb(16, 145, 16) ; color: white;border-radius: 7px;
+                       border-color:rgb(16, 145, 16)  ;" > 20k </button>
+
+                   </form>
+                   
+
+
+
+               </td>
+
+           </tr>
+
+       </table>
+       </div>
+
+       <div class="centerline">
+       <table>
+           <tr>
+               <td style="padding-right: 20px;" >
+                   <form>
+
+                    <label for="fileUploader"> Upload Profile Picture </label>
+                    <br/>
+                    <input type="file" id="fileUploader" 
+                    style="padding-right: 100px;border-color:white ;"/>
+                   
+                   </form>
+                   <td >
+                    <label for="age"> Age </label>
+                    <br/>
+                    <input id="age" type="number"
+                    style="border-color:white ;"/>
+
+                   </td>
+
+               </td>
+           </tr>
+
+       </table>
+       </div>
+
+       <div style=" padding-left: 500px;
+                    padding-top: 20px;">
+        <p> Bio </p> 
+        <textarea id="txt_notes" rows="10" cols="60 "
+        style="padding-right: 100px;border-radius: 3px;border-color:gray ;outline: none;"></textarea>
+        
+       </div>
+
+      
+       <div class="centerline" style="background: rgba(228, 228, 228, 0.897);">
+  
+       <table>
+           <tr>
+               <td style="padding-right: 440px;color:rgb(177, 177, 177);">
+                   <i>* required </i>
+               </td>
+               <td>
+                <button type="button" style="background-color:rgb(16, 145, 16) ; color: white;border-radius: 7px;
+                 border-color:rgb(16, 145, 16)  ;"> Create </button>
+               </td>
+               
+
+               </td>
+           </tr>
+       </table>
+    </div>
+
+      </form>
+
+  </body>
+</html>  
